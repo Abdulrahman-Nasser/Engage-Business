@@ -1,0 +1,1054 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+.son{
+    width: 50%;
+    float: left;
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+}
+i{
+    transition-duration: .3s;
+}
+/*/////////////*/
+/* section cover */
+.cover{
+    background-image: url(../img/business-main.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+}
+.cover .cover_text{
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 65%;
+
+}
+.cover .cover_text h1{
+    color: white;
+    font-size: 76px;
+    padding: 20px;
+    margin-top: 80px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.cover .cover_text p{
+    font-size: 22px;
+    color: white;
+    line-height: 1.7;
+    font-family: 'Open Sans',arial;
+    padding: 10px;
+    
+}
+.cover .cover_text .btn{
+    font-size: 14px;
+    border: none;
+    width: 150px;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 10px;
+    font-family: 'Open Sans',arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.cover .cover_text .btn1{
+    background-color: #4274b7;
+    color: white;
+    transition-duration:.3s;
+}
+.cover .cover_text .btn2{
+    background-color: white;
+    transition-duration: .5s;
+}
+.cover .cover_text .btn1:hover {
+    background-color: white;
+    color: black;
+}
+.cover .cover_text .btn2:hover{
+    background-color: whitesmoke;
+}
+/*/////////////////////////////////*/
+/* section icon */
+.icon{
+    padding: 70px 0;
+}
+.icon .icon_text{
+    width: 33.333%;
+    float: left;
+    margin: 50px 0;
+    padding: 5px 5px;
+}
+.icon .icon_text h5{
+    font-size: 17px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #303030;
+}
+.icon .icon_text p{
+    font-size: 15px;
+    font-family: 'Open Sans',arial;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #888888;
+    margin-left: 45px;
+}
+.icon .icon_text span i{
+    color: cadetblue;
+    font-size:25px;
+    width: 40px;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+/*/////////////////////*/
+/*******grand-parent*********/
+.grand-parent{
+    padding: 70px 0;
+    background-color:#f8f8f9;
+}
+
+
+.grand-parent .who_img{
+    text-align: center;
+    padding: 20px 40px;
+}
+ .son h3{
+    font-size: 28px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-top: 25px;
+    line-height: 1.3;
+}
+ .son p{
+    font-size: 15px;
+    color: #303030;
+    font-family: 'Open Sans',arial;
+    line-height: 1.8;
+    padding: 5px 0;
+}
+.grand-parent .who_text{
+    margin-top: 5px;
+}
+.grand-parent .who_text p{
+    margin: 15px 0;
+}
+ .son span i{
+    width: 30px;
+    font-size: 18px;
+    color: #3876c9;
+}
+ .son .btn{
+    font-size: 13px;
+    color: white;
+    background-color: #4274b7;
+    border: none;
+    width: 125px;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 10px;
+    font-family: 'Open Sans',arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+ .son .btn:hover{
+    background-color: #303030;
+}
+/*/////////////////////////*/
+/*******section grand-parent2********/
+.grand-parent2{
+    padding: 70px 0;
+}
+.grand-parent2 .our_text{
+    margin-top: 5px;
+}
+.grand-parent2 .our_text p{
+    margin: 15px 0;
+}
+.grand-parent2 .son_img{
+    text-align: center;
+}
+/*/////////////////////*/
+/*****section services******/
+.services{
+    padding: 70px 0;
+    background-color: #f8f8f9;
+}
+.services .services-text{
+    text-align: center;
+}
+.services span i{
+    font-size: 40px;
+    color: #3876c9;
+}
+.services .services-text h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 20px;
+    font-family: "Roboto";
+    color: #303030;
+}
+.services .services-text p{
+    margin: 17px auto;
+    font-size: 17px;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    color: #888;
+
+}
+.services .services-text2{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px;
+}
+.services .services-text2 span i{
+    font-size: 30px;
+    color: white;
+    background-color: #3876c9;
+    border-radius: 100%;
+    padding: 15px;
+}
+.services .services-text2 h5{
+    font-size: 17px;
+    font-family:"Roboto" ;
+    font-weight: 500;
+    color: #303030;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+.services .services-text2 p{
+    margin: 17px auto;
+    font-size: 15px;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    color: #888;
+}
+/*////////////////////*/
+/*******section cover2*******/
+.cover2{
+    background-image: url(../img/business-main.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    background-color: #3876c9;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+.cover2 .cover2-background{
+    background-color: #3876c9;
+    width: 100%;
+    opacity: .8;
+    height: 600px;
+}
+    
+
+.cover2 .cover2-text{
+    padding: 50px;
+}
+.cover2 .cover2-text span i{
+    color: white;
+    background-color: #3876c9;
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 70px;
+   
+}
+.cover2 .cover2-text p{
+    line-height: 1.8;
+    font-family: 'Open Sans',arial;
+    font-size: 22px;
+    padding: 20px 10px 0 10px;
+
+}
+.cover2 .cover2-text button{
+    background-color: transparent;
+    border: none;
+    padding: 0 2px;
+}
+.cover2 .cover2-text .btn  i{
+    background-color: rgba(0, 0, 255, 0.055);
+    border-radius: 100%;
+    border: white solid 2px;
+    color: #ffffffB3;
+    font-size: 13px;
+    width: 30px;
+    padding: 10px;
+    opacity: 1;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.cover2 .cover2-text .btn i:hover{
+    background-color: white;
+    color: black;
+}
+.cover2 .cover2-text .son1 p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open Sans',arial;
+}
+.cover2 .cover2-text .son2 p{
+    font-weight: 400;
+    font-family: 'Open Sans',arial;
+    font-size: 14px;
+    opacity: .7;
+}
+/*////////////*/
+/*****section yellowoak******/
+.yellowoak{
+    padding: 70px;
+}
+.yellowoak .yellowoak-img{
+    width: 20%;
+    float: left;
+    padding: 25px;
+    opacity: .7;
+    transition-duration: .5s;
+}
+.yellowoak .yellowoak-img:hover{
+    opacity: 1;
+}
+/*//////////////////////////////*/
+/*****section work******/
+.work{
+    padding: 70px 0;
+    background-color: #f8f8f9;
+}
+.work .work-text{
+    text-align: center;
+
+}
+.work .work-text h2{
+    font-family:"Roboto" ;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: 10px;
+}
+.work .work-text p{
+    line-height: 1.8;
+    font-family: 'Open Sans',arial;
+    font-size: 15px;
+    padding: 15px;
+}
+.work .work-text .btn{
+    border: none;
+    background-color: #4274b7;
+    padding: 20px;
+    border-radius: 4px;
+    width: 170px;
+    font-size: 12px;
+    font-family: 'Open Sans',arial;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.work .work-text .btn:hover{
+    background-color: #303030;
+}
+/*/////////////////////////////*/
+/*****section about_us*****/
+.about_us{
+    padding: 70px 0;
+    background-color: #162231;
+}
+.about_us .about_us_text{
+    width: 33.333%;
+    float: left;
+    padding: 0 20px;
+    margin: auto;
+}
+.about_us .about_us_text h4{
+    color: white;
+    font-size: 17px;
+    font-family:"Roboto" ;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.about_us .about_us_text p{
+    color: #58606b;
+    font-size: 13px;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 30px;
+}
+.about_us .about_us_text ul li{
+    color: #58606b;
+    font-size: 14px;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 30px;
+}
+.about_us .about_us_text ul li span i{
+    width: 10px;
+}
+.about_us .about_us_text ul a li .link{
+  transition-duration: .3s;
+}
+.about_us .about_us_text ul a li .link:hover{
+  color: #4274b7;
+}
+.about_us .about_us_text ul li .about_us_text_icon i{
+    width: 20px;
+    line-height: 1.5;
+}
+.footer{
+    background-color: #121B25;
+    padding: 20px 0;
+}
+.footer .footer_text{
+    text-align: left;
+    color: #58606b;
+    float: left;
+    font-size: 13px;
+    font-family: 'Open Sans',arial;
+    margin: auto;
+}
+.footer .footer_icon{
+    text-align: right;
+    margin: auto;
+}
+.footer .footer_icon .icon i {
+    padding: 10px;
+    background-color: #00000014;
+    border-radius: 100%;
+    color:  #535353;
+    font-size: 14px;
+   
+}
+
+.footer .footer_icon .facebook i:hover{
+    background-color: #4274b7;
+    color: white;
+}
+
+.footer .footer_icon .instagram i:hover{
+    background-color: rgb(177, 97, 150);
+    color: white;
+}
+
+.footer .footer_icon .t i:hover{
+    background-color: #3876c9;
+    color: white;
+}
+.footer .footer_icon .twiter i:hover{
+    background-color: #09c;
+    color: white;
+}
+/* ///////////////////////////////// */
+
+/**************************************about css style ***********************************************/
+
+/* section about */
+.about-services{
+   background-color:#f8f8f8;
+   padding: 50px 0;
+}
+.about-services .about-text{
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+.about-services .about-link{
+    float: left;
+    width: 45%;
+    text-align: right;
+    float: left;
+}
+.about-services .about-paragraph{
+    width: 5%;
+    text-align: right;
+    float: left;
+}
+
+.about-services .about-text h1{
+    font-family:"Roboto" ;
+    font-size: 24px;
+    font-weight: 500;
+    color: #303030;
+}
+.about-services .about-link a{
+    font-size: 15px;
+    font-family: 'Open Sans',arial;
+    color: #515151;
+    opacity: .7;
+    font-weight: 400;
+    transition-duration: .3s;
+}
+.about-services .about-link a:hover{
+    color: #09c;
+}
+.about-services .about-paragraph p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans',arial;
+    color: #666666;
+}
+/* section grand-parent */
+.parent{
+    background-color: white;
+}
+
+.grand-parent .son-text{
+    margin-top: 50px;
+}
+.grand-parent .son-text p{
+    padding: 15px 0;
+}
+/* ///////////////// */
+/*section grand-parent2*/
+.parent2{
+    background-color: #f8f8f8;
+}
+.grand-parent2 .grand-parent2-text {
+    margin-top: 50px;
+}
+.grand-parent2 .grand-parent2-text p{
+    padding: 15px 0;
+}
+/* ////////////////////////////// */
+/*section our-video*/
+.our-video{
+    padding: 70px 0;
+}
+.our-video .our-video-text{
+    text-align: center;
+    padding: 10px 0;
+}
+.our-video .our-video-text h3{
+    font-size: 30px;
+    color: #303030;
+    font-family:"Roboto" ;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: 15px 0;
+    text-transform: capitalize;
+}
+.our-video .our-video-text p{
+    font-size: 17px;
+    font-family: 'Open Sans',arial;
+    color: #888;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.our-video .our-video-text video{
+    border-radius: 10px;
+}
+/*/////////////////////////////*/
+/*section our-value*/
+.our-value{
+    padding: 70px 0;
+}
+.our-value-background{
+    background-color: #f8f8f8;
+}
+.our-value .our-value-text{
+    text-align: center;
+    padding: 10px 0;
+}
+.our-value .our-value-text h3{
+    font-size: 30px;
+    color: #303030;
+    font-family:"Roboto" ;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: 15px 0;
+    text-transform: capitalize;
+}
+.our-value .our-value-text p{
+    font-size: 17px;
+    font-family: 'Open Sans',arial;
+    color: #888;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.our-value .experience{
+    width: 33.3333%;
+    float: left;
+    padding: 10px 10px;
+}
+.our-value .experience h4{
+    font-size: 22px;
+    font-family:"Roboto" ;
+    line-height: 1.3;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+.our-value .experience p{
+    font-size: 15px;
+    font-family: 'Open Sans',arial;
+    color: #686868;
+    font-weight: 400;
+    line-height: 1.8;
+}
+/*/////////////////////////////////*/
+/****section work****/
+ .work-background-img{
+    background: url(../img/business-main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    padding: 0;
+}
+.work .back-ground{
+  background-color: #4274b7;
+  height: 400px;
+  opacity: .9;
+  padding: 85px ;
+  color: white;
+}
+.work .work-text2 h2{
+    line-height: 1.5;
+}
+.work .work-text2 a .Btn{
+    width: 130px;
+    border: white solid 2px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 4px ;
+    font-size: 12px;
+    font-family: 'Open Sans',arial;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition-duration: .3s;
+    margin-top: 20px;
+}
+.work .work-text2 a .Btn:hover{
+    color: black;
+    background-color: white;
+}
+/*////////////////////////////*/
+/***********************************************section services********************************************/
+
+/*section our-offer*/
+.our-offer{
+    padding: 70px 0;
+}
+.our-offer-text{
+   
+    width: 65%;
+}
+.our-offer .our-offer-text h2{
+    font-family:"Roboto" ;
+    font-size: 38px;
+    font-weight: 500;
+    color: #303030;
+    line-height: 1.3;
+    padding: 0 15px;
+}
+.our-offer .our-offer-text p{
+    font-size: 15px;
+    font-family: 'Open Sans',arial;
+    color: #686868;
+    font-weight: 400;
+    line-height: 1.8;
+    padding: 10px 15px;
+}
+.our-offer .our-offer-img{
+    width: 33.333%;
+    float: left;
+    padding: 50px 15px;
+}
+.our-offer .our-offer-img h5{
+    font-size: 18px;
+    color: #303030;
+    font-family:"Roboto" ;
+    font-weight: 500px;
+    line-height: 1.3;
+    padding: 15px 0;
+}
+.our-offer .our-offer-img p{
+    font-size: 15px;
+    font-family: 'Open Sans',arial;
+    color: #686868;
+    font-weight: 400;
+    line-height: 1.8;
+    padding: 10px 0;
+}
+.our-offer .our-offer-img a .btn{
+    border: none;
+    background-color: #4274b7;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 10px;
+    width: 110px;
+    font-family: 'Open Sans',arial;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition-duration: .3s;
+    margin-top: 15px;
+}
+.our-offer .our-offer-img a .btn:hover{
+    background-color: black;
+}
+.work .work-text a .BTN{
+    background-color: white;
+    border: none;
+    color: black;
+}
+.work .work-text a .BTN:hover{
+    background-color: black;
+    color: white;
+}
+.grand-parent .who-text p{
+    padding: 15px 0;
+}
+
+@media screen and (max-width:1024px) {
+    .cover .cover_text{
+        width: 95%;
+    }
+    .cover .cover_text h1{
+        font-size: 63px;
+        padding: 25px;
+        margin-top: 92px;
+    }
+    .cover .cover_text p{
+        padding: 10px 0 20px 0;
+    }
+    .cover .cover_text .btn{
+        font-size: 15px;
+        padding: 15px;
+        margin: 20px 2px 0 0;
+    }
+    /* /// */
+    .icon .icon_text p{
+        font-size: 14px;
+    }
+    /* // */
+    .son{
+        width: 100%;
+    }
+    /* // */
+    .services .services-text2{
+        width: 33.333%;
+    }
+    /* // */
+    .about_us .about_us_text{
+        width: 50%;
+        padding: 15px 20px;
+    }
+    .about .about-link{
+        width: 44%;
+    }
+    .about .about-paragraph{
+        width: 6%;
+    }
+    .about-services .about-paragraph{
+        width: 7%;
+    }
+    .about-services .about-link{
+        width: 43%;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .cover{
+        height: 514px;
+    }
+    .cover .cover_text{
+        width: 95%;
+    }
+    .cover .cover_text h1{
+        font-size: 44px;
+        padding: 10px;
+        margin-top: 57px;
+    }
+    .cover .cover_text p{
+        font-size: 20px;
+        line-height: 2;
+        padding: 14px;
+    }
+    /* /// */
+    .icon .icon_text{
+        width: 50%;
+    }
+    /* // */
+    .son{
+        width: 100%;
+    }
+    /* // */
+    .services .services-text2{
+        width: 50%;
+    }
+    .cover2 .cover2-text p{
+        font-size: 19px;
+    }
+    /* // */
+    .yellowoak{
+        padding: 50px;
+    }
+    .yellowoak .yellowoak-img{
+        padding: 11px;
+    }
+    .about_us .about_us_text{
+        width: 50%;
+        padding: 15px 20px;
+    }
+    /* // */
+    .about .about-link{
+        width: 39%;
+    }
+    .about .about-paragraph{
+        width: 8%;
+    }
+    .grand-parent{
+        padding: 40px 0;
+    }
+    .grand-parent .son-text{
+        margin-top: 15px;
+    }
+    .grand-parent2{
+        padding: 0;
+    }
+    .our-value .experience{
+        width: 50%;
+    }
+    .our-value{
+        padding: 50px 0;
+    }
+    .about-services .about-paragraph{
+        width: 8%;
+    }
+    .about-services .about-link{
+        width: 42%;
+    }
+    .grand-parent2 .grand-parent2-text{
+        margin-top: 5px;
+    }
+    .our-offer-text{
+        width: 100%;
+    }
+    .our-offer .our-offer-img{
+        width: 50%;
+    }
+    .grand-parent .who_img{
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cover{
+        height: 277px;
+    }
+    .container{
+        width: 95%;
+    }
+    .cover .cover_text{
+        width: 100%;
+    }
+    .cover .cover_text h1{
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 0;
+    }
+    .cover .cover_text p{
+        padding: 0;
+        font-size: 12px;
+        line-height: 2;
+    }
+    .cover .cover_text .btn{
+        font-size: 9px;
+        width: 87px;
+        padding: 9px;
+        margin: 17px 0;
+    }
+    /* // */
+    .icon .icon_text{
+        width: 100%;
+        padding: 5px 22px;
+    }
+    /* // */
+    .who_we_are{
+        padding: 15px;
+    }
+   .our_secret .son{
+        width: 100%;
+        padding: 20px;
+    }
+    .son h3{
+        font-size: 23px;
+    }
+    .son p{
+        font-size: 11px;
+    }
+    .son .btn{
+        font-size: 9px;
+        width: 88px;
+        padding: 13px;
+    }
+    .who_we_are .who_text p{
+        margin: 25px 0;
+    }
+    .our_secret{
+        padding: 35px 0;
+    }
+    .who_we_are .son{
+        padding: 5px;
+    }
+    /* // */
+    .cover2{
+        height: 350px;
+    }
+    .services .services-text2{
+        width: 100%;
+    }
+    .cover2 .cover2-text{
+        padding: 3px;
+    }
+    .cover2 .cover2-text span i{
+        margin-top: 10px;
+    }
+    .cover2 .cover2-text p{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .cover2 .cover2-text .son1 p{
+        font-size: 11px;
+    }
+    /* // */
+    .yellowoak .yellowoak-img{
+        width: 100%;
+        padding: 43px;
+    }
+    /* // */
+    .about_us{
+        padding: 50px 0;
+    }
+    .about_us .about_us_text{
+        width: 100%;
+        padding: 15px 20px;
+    }
+    /* // */
+    .footer .footer_text{
+        width: 100%;
+        text-align: center;
+    }
+    .footer .footer_icon{
+        width: 100%;
+        text-align: center;
+    }
+    /* // */
+    .about .about-link{
+        width: 28%;
+    }
+    .about .about-paragraph{
+        width: 13%;
+    }
+    .about .about-text h1{
+        margin-left: 38px;
+    }
+    /* // */
+    .grand-parent{
+        padding: 25px 0;
+    }
+    .grand-parent2{
+        padding: 15px 0;
+    }
+    .grand-parent .son-text{
+        margin-top: 15px;
+    }
+    .grand-parent2 .grand-parent2-text{
+        margin-top: 0;
+    }
+    .our-video{
+        padding: 33px 0;
+    }
+    .our-value{
+        padding: 40px 0;
+    }
+    .our-value .experience{
+        width: 100%;
+        padding: 20px 25px;
+    }
+    .about-services .about-paragraph{
+        width: 13%;
+    }
+    .about-services .about-link{
+        width: 27%;
+    }
+    .about-services{
+        padding: 23px 0;
+    }
+    .grand-parent .son-text{
+        margin-top: 0;
+    }
+    .son{
+        padding: 14px 0;
+    }
+    .work .back-ground{
+        padding: 40px;
+    }
+    .work .work-text h2{
+        font-size: 32px;
+    }
+    .work .back-ground{
+        height: 300px;
+    }
+    .work-background-img{
+        height: 300px;
+    }
+    .work .work-text2 a .Btn{
+        width: 100px;
+        padding: 15px;
+        font-size: 9px;
+    }
+    .our-offer-text{
+        width: 100%;
+    }
+    .our-offer .our-offer-img{
+        padding: 50px 15px;
+        width: 100%;
+    }
+    .our-offer{
+        padding: 6px;
+    }
+    .grand-parent .who_img{
+        padding: 20px 23px;
+    }
+    .son{
+        padding: 14px 20px;
+    }
+}
+
+/*///////////////////////////////////*/
